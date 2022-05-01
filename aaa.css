@@ -1,0 +1,135 @@
+body, h1, h2, li, ul {
+    margin: 0;
+    padding: 0;
+}
+.ortala{
+    width: 925px;
+    margin: 0 auto;
+}
+.üst{
+    height: 180px;
+    background-color: lightslategray;
+}
+.üst .logo{
+    float: left;
+    margin-top: 70px;
+    padding: 36px 30px;
+    background-color: rgb(0, 255, 191);
+} 
+.üst .logo a {
+    text-decoration: none;
+    color: rgb(250, 0, 0);
+}
+nav.menü {
+     float: right;
+    margin-top: 100px;
+}
+nav.menü ul{
+    list-style: none;
+}
+nav.menü ul li{
+       float: left;
+}
+nav.menü ul li a{
+         text-decoration: none;
+         background: rgb(0, 158, 158);
+         color: rgb(255, 255, 255);
+         padding: 8px 16px;
+         margin-left: 20px;
+         border-radius: 10px;
+}
+.içerik{
+    margin-top: 100px;
+}
+.satır{
+    margin-top: 40px;
+}
+.slider{
+     border: 1px solid salmon;
+}
+.slider h1 {
+    margin: 100px 0 0 50px;
+    float: left;
+    font-size: 2.8em;
+    color: rgb(255, 0, 0);
+    font-family: sans-serif;
+
+}
+.slider img{
+    float: left;
+}
+.ozet{
+    width: 221px;
+    margin-right: 19px;
+    float: left;
+    margin-top: 20px;
+}
+.ozet:nth-child(4) {
+    margin-right: 0;
+}
+.ozet .resim{
+    width: 220px;
+    height: 204px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.içerik .sutun2{
+    float: left;
+}
+.içerik .panel{
+    border: 5px solid skyblue;
+    width: 420px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.panel-bosluk{
+    margin-right: 0px !important;
+    margin-left: 20px;
+    background: silver;
+    color: blueviolet;
+    height: 198px;
+}
+#keladam{
+    margin-top: -10px;
+
+}
+.panel .panel-baslik{
+    background: salmon;
+    padding: 18px 26px;
+    width: 180px;
+    color: #fff;
+    margin-top: -40px;
+    margin-bottom: 30px;
+
+}
+.panel img{
+    float: left;
+    margin: 0 20px 10px 0;
+
+}
+.alt{
+    padding: 30px 0px;
+    background: slateblue;
+    text-align: center;
+}
+.alt .sosyal{
+    background: slateblue;
+    float: right;
+    margin-top: -40px;
+    padding: 10px 20px;
+
+}
+.alt .sosyal a{
+     color: #fff;
+     text-decoration: none;
+     margin: 0 5px;
+     opacity: .5;
+
+}
+.alt .sosyal a:hover {
+    opacity: 1;
+}
+.temizle{
+    clear: both;
+}
